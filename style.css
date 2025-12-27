@@ -1,0 +1,64 @@
+ 
+ 
+ body {
+    background-color: rgb(37, 4, 41);
+    color:white;
+ }
+
+ h1 {
+    font-family: "Fleur De Leah", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 5em;
+
+ }
+
+ h2 {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2em;
+    text-align: center;
+ }
+
+ h3 {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2em;
+    margin: 0.1em;
+ }
+
+ p {
+    font-family: "Gaegu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+ }
+
+ .box {
+    background-color: rgba(255, 127, 187, 0.439);
+    border-radius: 1em;
+    padding: 1em;
+    /* box-shadow: 0px 0px 1em rgba(255, 127, 187, 0.439); */
+ }
+
+
+.loopyFont {
+  font-family: "Fleur De Leah", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pixelFont {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.mainFont {
+  font-family: "Gaegu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
