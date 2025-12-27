@@ -40,8 +40,39 @@
  .box {
     background-color: rgba(255, 127, 187, 0.439);
     border-radius: 1em;
-    padding: 1em;
+    padding: 2em;
+
     /* box-shadow: 0px 0px 1em rgba(255, 127, 187, 0.439); */
+ }
+
+ .polaroid {
+    background-color: white;
+    width: 15em;
+    height: 18em;
+    padding-top: 1.5em;
+    margin-right: 2em;
+    color: black;
+ }
+
+ .picture {
+    width:12em;
+    height: 12em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    background-color: black;
+ }
+
+ .picText {
+    font-family: "Gaegu", sans-srif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.1;
+    text-align: center;
+    font-size: 0.9em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6.5em;
  }
 
 
