@@ -18,7 +18,7 @@
     font-family: "Jersey 10", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 2em;
+    font-size: rem;
     text-align: center;
  }
 
@@ -41,9 +41,8 @@
     font-family: "Jersey 10", sans-serif;
     font-size: 1.5em;
     justify-content: space-evenly;
-    width: 30%;
+    max-width: 20em;
     margin: auto;
-
 }
 
 .menu > a {
@@ -54,6 +53,14 @@
     background-color: rgba(255, 127, 187, 0.439);
     border-radius: 1em;
     padding: 2em;
+
+    font-size: 1.2rem;
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
 
     /* box-shadow: 0px 0px 1em rgba(255, 127, 187, 0.439); */
  }
@@ -87,6 +94,8 @@
  .picture > img {
     width: 12em;
     border: 0.01em, solid, black;
+    max-width: 100%;
+    height: auto;
  }
 
  .picText {
@@ -108,6 +117,12 @@
     margin-top: 0.3em;
     margin-bottom: 0.3em;
  }
+
+/* .stuffInBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+} */
 
 
  .dottedUnderline {
@@ -134,4 +149,13 @@
   font-family: "Gaegu", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.funFont {
+  font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
 }
