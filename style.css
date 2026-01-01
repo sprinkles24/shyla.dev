@@ -18,7 +18,7 @@
     font-family: "Jersey 10", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: rem;
+    font-size: 1.5em;
     text-align: center;
  }
 
@@ -45,78 +45,81 @@
     margin: auto;
 }
 
-.menu > a {
-
+.pageHeading {
+   font-size: 2.5em;
 }
 
- .box {
-    background-color: rgba(255, 127, 187, 0.439);
-    border-radius: 1em;
-    padding: 2em;
+.box {
+   background-color: rgba(255, 127, 187, 0.439);
+   border-radius: 1em;
+   padding: 2em;
+   margin: 1em;
 
-    font-size: 1.2rem;
-    font-family: "Afacad Flux", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings:
-    "slnt" 0;
 
-    /* box-shadow: 0px 0px 1em rgba(255, 127, 187, 0.439); */
- }
+   font-size: 1.2rem;
+   font-family: "Afacad Flux", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   font-variation-settings:
+   "slnt" 0;
+
+   /* box-shadow: 0px 0px 1em rgba(255, 127, 187, 0.439); */
+}
 
 #polaroidBox {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
- .polaroid {
-    background-color: white;
-    width: 15em;
-    height: 18em;
-    padding-top: 1.5em;
-    margin-right: 2em;
-    color: black;
-    font-family: "Gaegu", sans-serif;
+.polaroid {
+   background-color: white;
+   width: 15em;
+   height: 18em;
+   padding-top: 1.5em;
+   margin-right: 2em;
+   color: black;
+   font-family: "Gaegu", sans-serif;
 
 
- }
+}
 
- .picture {
-    width:12em;
-    height: 12em;
-    margin-left: 1.5em;
-    margin-right: 1.5em;
-    background-color: rgb(73, 105, 173);
-    color: white;
- }
+.picture {
+   width:12em;
+   height: 12em;
+   margin-left: 1.5em;
+   margin-right: 1.5em;
+   background-color: rgb(73, 105, 173);
+   color: white;
+}
 
- .picture > img {
-    width: 12em;
-    border: 0.01em, solid, black;
-    max-width: 100%;
-    height: auto;
- }
+.picture > img {
+   width: 12em;
+   border: 0.01em, solid, black;
+   max-width: 100%;
+   height: auto;
+}
 
- .picText {
-    font-family: "Gaegu", sans-srif;
-    line-height: 1.1;
-    text-align: center;
-    font-size: 0.8em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 7.5em;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
- }
+.picText {
+   font-family: "Gaegu", sans-srif;
+   line-height: 1.1;
+   text-align: center;
+   font-size: 0.8em;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 7.5em;
+   padding-left: 0.5em;
+   padding-right: 0.5em;
+}
 
- .picTextHead {
-    font-size: 1.05em;
-    margin-top: 0.3em;
-    margin-bottom: 0.3em;
- }
+.picTextHead {
+   font-size: 1.05em;
+   margin-top: 0.3em;
+   margin-bottom: 0.3em;
+}
 
 /* .stuffInBox {
     display: flex;
@@ -125,7 +128,7 @@
 } */
 
 
- .dottedUnderline {
+.dottedUnderline {
   color: white;
   border-bottom: 0.125em dotted white;
   display: inline;
