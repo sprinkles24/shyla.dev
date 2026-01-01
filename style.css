@@ -121,12 +121,27 @@
    margin-bottom: 0.3em;
 }
 
-/* .stuffInBox {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-} */
+.tooltipContainer { /* all tooltip classes modified from https://www.w3schools.com/css/css_tooltip.asp */
+   position: relative;
+   display: inline-block;
+}
+.tooltipText {
+   visibility: hidden; /*display: none;*/
+   width: auto;
+   top: 100%;
+   left: 50%;
+   /* margin-left: calc((width)/-2); */
+   background-color: rgba(255, 255, 255, 0.5);
+   color: black;
 
+   text-align: center;
+   padding: 0.2em;
+   border-radius: 6px;
+   position: absolute;
+}
+.tooltipContainer:hover .tooltipText {
+   visibility: visible;
+}
 
 .dottedUnderline {
   color: white;
@@ -135,6 +150,8 @@
   text-decoration: none;
 
 }
+
+
 
 .loopyFont {
   font-family: "Fleur De Leah", cursive;
