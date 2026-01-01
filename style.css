@@ -127,10 +127,8 @@
 }
 .tooltipText {
    visibility: hidden; /*display: none;*/
-   width: auto;
    top: 100%;
    left: 50%;
-   /* margin-left: calc((width)/-2); */
    background-color: rgba(255, 255, 255, 0.5);
    color: black;
 
